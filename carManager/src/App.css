@@ -1,0 +1,51 @@
+*{
+    background: whitesmoke;
+}
+.nav-ul,
+.nav-ul > *,
+.nav-ul ul li{
+    background: none;
+}
+.header {
+  margin: 1em;
+}
+
+.header h1,
+.header h3 {
+  margin: 1em;
+  margin-bottom: 0.5em;
+  color: #333;
+  font-weight: bold;
+}
+
+#instructions,
+#instructions h5{
+  margin: 1em;
+}
+
+#instructions h5{
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 0.25em;
+    color: #333;
+}
+
+.option{
+    min-height: 200px;
+    width: 300px;
+    overflow: hidden;
+    border-radius: 25%;
+    padding: 2em;
+    font-size: 20px;
+    margin-top: 2em;
+    color: #333;
+    background-image: radial-gradient(rgb(204, 227, 241), rgb(105, 107, 107));
+}
+
+.link{
+    color: #333;
+}
+
+footer{
+    padding: 10em;
+}
